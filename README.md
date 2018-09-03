@@ -1,1 +1,1 @@
-# Vue-Smoothy-Project
+# Vue-Smoothie-Project
