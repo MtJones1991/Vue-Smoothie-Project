@@ -1,5 +1,5 @@
 <template>
-    <div class="add-smoothie container">
+    <div class="add-smoothie container grey lighten-5 z-depth-5 scale-transition">
         <h2 class="center-align indigo-text">Add a new recipie</h2>
         <form @submit.prevent="addSmoothie">
             <div class="field title">
@@ -16,7 +16,7 @@
             </div>
             <div class="field center-align">
                 <p v-if="feedback" class="red-text">{{ feedback }} </p>
-                <button class="btn pink pulse">Add recipie</button>
+                <button class="btn pink pulse z-depth-5">Add recipie</button>
             </div>
         </form>
     </div>
@@ -80,7 +80,7 @@ export default {
 .add-smoothie {
     margin-top: 60px;
     padding: 20px;
-    max-width: 500px;
+    max-width: 500px;;
 }
 
 .add-smoothie h2 {
